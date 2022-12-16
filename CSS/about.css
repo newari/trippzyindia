@@ -1,0 +1,154 @@
+#about-banner-image {
+  background-image: url("https://images.unsplash.com/photo-1560260240-c6ef90a163a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80");
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutus-heading {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.aboutus-heading h1 {
+  font-size: 42px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.aboutus-heading-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.aboutus-heading-list li {
+  margin: 5px;
+}
+
+.aboutus-heading-list li a {
+  text-decoration: none;
+  color: #256d6a;
+}
+
+#aboutus-section {
+  padding: 5rem 140px;
+}
+.about-image-01 img {
+  width: 100%;
+  height: 460px;
+}
+
+.about-image-02 {
+  width: 100%;
+  height: 660px;
+}
+
+.about-image-cont h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.about-image-cont p {
+  color: #888;
+  font-size: 16px;
+  text-align: justify;
+}
+#aboutus-section-02 {
+  padding: 50px;
+  /* background-color: #51c4be; */
+}
+
+.about-image-02-cont h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+  color: #888;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-image-02-cont h2::after {
+  position: absolute;
+  content: " ";
+  width: 50px;
+  height: 1px;
+  background-color: #888;
+  top: 40px;
+  left: 2px;
+}
+
+.about-image-02-cont h2::before {
+  position: absolute;
+  content: " ";
+  width: 50px;
+  height: 1px;
+  background-color: #888;
+  top: 40px;
+  left: 60px;
+}
+
+.about-image-02-cont p {
+  font-size: 16px;
+  color: #888;
+}
+
+.about-image-02-cont-child span {
+  color: #51c4be;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+.about-image-02-cont-child h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  color: #888;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -21px;
+}
+
+.about-image-02-cont-child p {
+  font-size: 16px;
+  color: #888;
+  text-align: justify;
+  margin-left: -21px;
+}
+
+#about-slider {
+  background-image: url("https://logixdestinations.com/apps/webfront/views/supreme-travel/images/bgimage/snow.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+}
+
+.about-slider-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #33333344;
+}
+
+.slider-content {
+  z-index: 99999;
+  text-align: center;
+  color: #ffffff;
+  /* margin-top: 50px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-content i {
+  font-size: 100px;
+  margin-bottom: 10px;
+}

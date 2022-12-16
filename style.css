@@ -4,6 +4,9 @@
   /* border: 1px solid black; */
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .nav-down-list-item {
   font-weight: 500;
   padding-top: 0.5rem;
@@ -144,6 +147,7 @@ ul.top-header-left-list {
 
 .navbar-logo img {
   width: 200px;
+  margin-left: 50px;
 }
 
 .main-navbar-right .navbar-list {
@@ -366,7 +370,7 @@ ul {
 }
 
 #popular-destination {
-  background-image: url("background-02.jpg");
+  background-image: url("https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80");
   width: 100%;
   position: relative;
   background-size: cover;
@@ -406,6 +410,7 @@ ul {
 
 .destination-image img {
   width: 100%;
+  height: 200px;
 }
 
 .destination-image {
@@ -472,6 +477,7 @@ ul {
 .best-deals-para {
   color: #888;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .best-deals-para a {
@@ -588,6 +594,7 @@ ul {
   padding: 30px 200px;
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid #d7d7d7;
 }
 
 .news-lwtter-heading {
@@ -619,6 +626,89 @@ ul {
 
 #footer-part {
   padding: 50px 200px;
+  background-color: #51c4be;
+}
+
+.contact-form-elemnts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form-elemnts li {
+  margin: 0 0 15px;
+  font-size: 15px;
+  color: #727272;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 25px;
+}
+
+.contact-form-elemnts li input {
+  background: white none repeat scroll 0 0;
+  border: medium none;
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0 10px;
+  color: #c3c3c3;
+  transition: all ease-in-out 0.3s;
+  font-size: 13px;
+}
+
+.contact-form-elemnts li textarea {
+  background: white none repeat scroll 0 0;
+  border: medium none;
+  height: 120px;
+  width: 100%;
+  border-radius: 3px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 8px;
+  transition: all ease-in-out 0.3s;
+  font-size: 13px;
+  overflow: auto;
+  resize: vertical;
+}
+
+.contact-form-elemnts li button {
+  background: #3385d9 none repeat scroll 0 0;
+  border: medium none;
+  bottom: 2px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 11px;
+  right: 0px;
+  background-color: #256d6a;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.footer-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-nav-list .fa-envelope:before {
+  content: "\f0e0";
+  margin-left: 0px;
+}
+
+.footer-nav-list li {
+  margin: 0 0 15px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer-content-heading {
@@ -628,7 +718,7 @@ ul {
   font-size: 1.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-color: #d7d7d7;
-  color: #888;
+  color: #ffffff;
 }
 
 .footer-content-para {
@@ -664,9 +754,9 @@ ul {
 }
 
 .bottom-footer {
-  color: #888;
-  background-color: #f7f7f7;
-  border: 1px solid #d7d7d7;
+  color: #ffffff;
+  background-color: #51c4be;
+  border-top: 1px solid #d7d7d7;
   display: flex;
   justify-content: space-around;
   padding: 20px;
@@ -675,17 +765,17 @@ ul {
 
 .bottom-footer-left p a {
   text-decoration: none;
-  color: #888;
+  color: #256d6a;
 }
 
 .bottom-footer-right p a {
   text-decoration: none;
-  color: #888;
+  color: #256d6a;
 }
 
 .bottom-icon {
   text-decoration: none;
-  background-color: #51c4be;
+  background-color: #256d6a;
   color: #ffffff;
   z-index: 999;
   display: inline-block;
@@ -697,6 +787,17 @@ ul {
   line-height: 36px;
   font-size: 16px;
   text-align: center;
+}
+
+.payment-option-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.payment-option-items li {
+  margin-left: 5px;
 }
 
 /* ######################################################################### */
