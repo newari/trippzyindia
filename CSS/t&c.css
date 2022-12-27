@@ -60,3 +60,64 @@
 .about-image-02-cont-child h2 {
   margin-left: -20px;
 }
+
+/* ####################### */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .aboutus-heading h1 {
+    font-size: 32px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  #about-banner-image {
+    background-image: url(https://images.unsplash.com/photo-1614330258898-86823c7e3de2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #term-condition {
+    padding: 2rem 30px;
+  }
+
+  .term-condition-content h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.6rem;
+    color: #51c4be;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  #about-banner-image {
+    background-image: url(https://images.unsplash.com/photo-1614330258898-86823c7e3de2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #term-condition {
+    padding: 5rem 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  #about-banner-image {
+    background-image: url(https://images.unsplash.com/photo-1614330258898-86823c7e3de2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #term-condition {
+    padding: 5rem 50px;
+  }
+}

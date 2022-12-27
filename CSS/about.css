@@ -152,3 +152,56 @@
   font-size: 100px;
   margin-bottom: 10px;
 }
+
+/* #@@#@#@#@#@@ */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar-logo img {
+    width: 200px;
+    margin-left: 0px;
+  }
+
+  #about-banner-image {
+    background-image: url("https://images.unsplash.com/photo-1560260240-c6ef90a163a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80");
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #aboutus-section {
+    padding: 3rem 5px;
+  }
+
+  .about-image-cont h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+    color: #888;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  #aboutus-section-02 {
+    padding: 5px;
+  }
+
+  .aboutus-heading-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .slider-content i {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+
+  .payment-option-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

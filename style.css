@@ -814,6 +814,11 @@ ul {
     border-bottom: none;
   }
 
+  .navbar-logo img {
+    width: 200px;
+    margin-left: 0px;
+  }
+
   ol,
   ul {
     padding-left: 0px;
@@ -1005,8 +1010,16 @@ ul {
     width: 60px;
     height: 2px;
     top: 80px;
-    right: 125px;
+    right: 132px;
     background-color: #d7d7d7;
+  }
+
+  .payment-option-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -1019,6 +1032,11 @@ ul {
     color: #ffffff;
     display: block;
     border-bottom: 1px solid #333;
+  }
+
+  .navbar-logo img {
+    width: 200px;
+    margin-left: 0px;
   }
 
   ol,
@@ -1232,6 +1250,11 @@ ul {
     border-bottom: 1px solid #333;
   }
 
+  .navbar-logo img {
+    width: 200px;
+    margin-left: 0px;
+  }
+
   ol,
   ul {
     padding-left: 0px;
@@ -1441,6 +1464,11 @@ ul {
     color: #ffffff;
     display: flex;
     border-bottom: 1px solid #333;
+  }
+
+  .navbar-logo img {
+    width: 200px;
+    margin-left: 0px;
   }
 
   ol,
